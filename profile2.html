@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Builder</title>
+    <link rel="stylesheet" href="profile2.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0">
+</head>
+<body>
+    <div class="wrapper">
+        <h2>Select Your Skills</h2>
+        
+        <div class="skill-options">
+            <button class="skill-button" data-skill="programming">
+                <span class="nav-icon material-symbols-rounded">code</span>
+                Programming
+            </button>
+            <button class="skill-button" data-skill="design">
+                <span class="nav-icon material-symbols-rounded">palette</span>
+                Design
+            </button>
+            <button class="skill-button" data-skill="writing">
+                <span class="nav-icon material-symbols-rounded">edit_note</span>
+                Writing
+            </button>
+            <button class="skill-button" data-skill="marketing">
+                <span class="nav-icon material-symbols-rounded">trending_up</span>
+                Marketing
+            </button>
+            <button class="skill-button" data-skill="analytics">
+                <span class="nav-icon material-symbols-rounded">analytics</span>
+                Analytics
+            </button>
+            <button class="skill-button" data-skill="management">
+                <span class="nav-icon material-symbols-rounded">groups</span>
+                Management
+            </button>
+            <button class="skill-button" data-skill="language">
+                <span class="nav-icon material-symbols-rounded">translate</span>
+                Languages
+            </button>
+            <button class="skill-button" data-skill="teaching">
+                <span class="nav-icon material-symbols-rounded">school</span>
+                Teaching
+            </button>
+            <button class="skill-button" id="other-skill">
+                <span class="nav-icon material-symbols-rounded">add</span>
+                Other
+            </button>
+        </div>
+
+        <div class="custom-skill-input">
+            <input type="text" id="new-skill-input" placeholder="Enter your skill">
+            <button id="add-skill-btn">Add Skill</button>
+        </div>
+
+        <button class="continue-btn" disabled>Continue</button>
+    </div>
+    <script src="profilescript.js">   </script>
+</body>
+</html>

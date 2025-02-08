@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create account</title>
+  <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+  <div class="wrapper">
+    <form action="#">
+      <h2>Sign up</h2>
+        <div class="input-field">
+        <input type="text" required>
+        <label>Enter your email</label>
+      </div>
+      <div class="input-field">
+        <input type="password" id="password" required>
+        <label>Enter your password</label>
+        <span id="password-requirements" class="requirements">
+            Password must contain at least:
+            <ul>
+                <li id="length">8 characters</li>
+                <li id="uppercase">1 uppercase letter</li>
+                <li id="lowercase">1 lowercase letter</li>
+                <li id="number">1 number</li>
+                <li id="special">1 special character</li>
+            </ul>
+        </span>
+    </div>
+    <div class="input-field">
+        <input type="password" id="confirmPassword" required>
+        <label>Re-Enter your password</label>
+        <span id="password-error" class="error-message"></span>
+    </div>
+    
+      <button type="submit">Sign In</button>
+    </form>
+  </div>
+
+  <script src="validation.js"></script>
+</body>
+</html>
